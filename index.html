@@ -6,6 +6,41 @@
 <style>
 :root{--bg:#0b1220;--card:#121d30;--ink:#eef4ff;--muted:#9aabc3;--green:#8b5cf6;--mint:#292449;--line:#293750;--accent:#4ee1c1}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top left,#172b42 0%,#0b1220 48%,#080d17 100%);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh}button,input,select,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #9fbea9;outline-offset:2px}.wrap{max-width:920px;margin:auto;padding:18px}.hero{background:linear-gradient(125deg,#42228a 0%,#263e70 52%,#087e83 100%);color:#fff;border:1px solid #ffffff20;border-radius:28px;padding:25px;margin-bottom:15px;box-shadow:0 18px 55px #0004;position:relative;overflow:hidden}.eyebrow{font-size:11px;letter-spacing:2px;color:#d5e7d8}.hero h1{font-size:30px;margin:8px 0}.hero p{color:#e0eee3;margin:0}.stats,.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stats{margin-top:20px}.stat{background:#ffffff12;border:1px solid #ffffff2a;border-radius:16px;padding:13px;backdrop-filter:blur(8px)}.stat strong{display:block;font-size:25px}.nav{display:flex;gap:7px;overflow:auto;margin:16px 0;padding:5px 1px;position:sticky;top:0;z-index:5;background:#0b1220e8;backdrop-filter:blur(12px);border-radius:16px}.nav button{flex:1;min-width:90px;padding:11px 10px;border:1px solid var(--line);border-radius:13px;background:#111b2c;color:var(--muted);white-space:nowrap;transition:transform .15s,border-color .15s}.nav button:hover{transform:translateY(-1px);border-color:#7c6bed}.nav button.active,.primary{background:linear-gradient(120deg,#7c3aed,#4f46e5);color:white;border-color:#8b7cf6;box-shadow:0 6px 18px #4f46e533}.card{background:linear-gradient(145deg,#141f33,#101a2b);border:1px solid #2a3952;border-radius:21px;padding:18px;margin:12px 0;box-shadow:0 8px 25px #0002}.card h2{font-size:19px;margin:0 0 10px}.card h3{font-size:16px;margin:0 0 5px}.muted{font-size:13px;color:var(--muted)}.pill{display:inline-block;padding:5px 10px;background:#292449;color:#cfc7ff;border:1px solid #4a3e78;border-radius:30px;font-size:12px}.btn{border:1px solid #34435d;background:#17243a;color:var(--ink);border-radius:12px;padding:11px 13px;transition:transform .15s,border-color .15s}.btn:hover{transform:translateY(-1px);border-color:#8b7cf6}.primary{background:var(--green);color:white;border-color:var(--green)}.full{width:100%;margin-top:9px}.row{display:flex;gap:10px;align-items:center;justify-content:space-between}.row>*{min-width:0}.exercise{padding:12px 0;border-bottom:1px solid #293750}.exercise:last-child{border-bottom:0}.field{margin:10px 0}.field label{display:block;font-size:13px;color:var(--muted);margin-bottom:5px}.field input,.field select,.field textarea{width:100%;border:1px solid #33435e;border-radius:12px;background:#0c1524;padding:11px;color:var(--ink)}.field select option{background:#101a2b;color:var(--ink)}.timer{text-align:center;font-size:clamp(56px,12vw,76px);line-height:1.05;font-weight:900;letter-spacing:1px;margin:20px 0;color:#ffffff;font-variant-numeric:tabular-nums}.runner-panel{background:linear-gradient(145deg,#182a45,#111c30)!important;color:#f3f7ff;border:1px solid #405674;box-shadow:inset 0 1px #ffffff0b}.runner-panel #runExercise{font-size:clamp(24px,5vw,32px);line-height:1.15;margin:10px 0;color:#fff}.runner-panel #runDetail{font-size:18px;font-weight:750;color:#9ff3dd}.runner-panel #timerHint{font-size:14px;color:#c0cde0;margin-top:12px}.rep-badge{display:inline-flex;align-items:center;justify-content:center;margin:12px auto 4px;padding:9px 16px;border-radius:999px;background:#1d765f;color:#eafff8;font-weight:850;font-size:18px;border:1px solid #48d6b0}.runner-instruction{margin-top:12px;text-align:left;background:#0b1525;border:1px solid #31445f;border-radius:14px;padding:13px;color:#eaf1ff}.runner-instruction b{display:block;margin-bottom:4px;color:#9ff3dd}.water-number{font-size:34px;font-weight:900;line-height:1.15}.glass-row{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}.glass-dot{font-size:23px;opacity:.28;filter:grayscale(1)}.glass-dot.filled{opacity:1;filter:none}.chart-wrap{width:100%;overflow:hidden}.weight-chart{width:100%;height:auto;display:block}.big{font-size:28px;font-weight:850}@media(max-width:480px){.wrap{padding:12px}.card{padding:15px;border-radius:18px}.timer{margin:16px 0}.nav button{min-width:84px;padding:10px 8px}}.progress{height:9px;background:#ffffff25;border-radius:20px;overflow:hidden;margin:12px 0}.progress span{display:block;height:100%;background:linear-gradient(90deg,#4ee1c1,#b6f36b);width:0%;border-radius:20px;transition:width .3s}.hidden{display:none!important}.notice{padding:13px;border-radius:14px;background:#17263a;border:1px solid #2b405b;font-size:13px;color:#c6d5e9}.foodrow{padding:10px 0;border-bottom:1px solid #293750}.foodrow:last-child{border:0}.weekbtn{padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:#17243a;color:var(--ink);margin:2px}.weekbtn.active{background:#5b45c8;color:white}.small{font-size:12px}.good{color:#70e1b5;font-weight:650}.danger{color:#ff938b}.footer{font-size:12px;color:var(--muted);padding:18px 2px;text-align:center}@media(min-width:650px){.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}.hero{padding:30px}.hero h1{font-size:36px}}
+
+/* PeakProgress readability fix v2.2 */
+.runner-panel,.card.runner-panel,section.runner-panel,#runnerPanel {
+ background:linear-gradient(145deg,#14243a 0%,#0d1728 100%) !important;
+ color:#f8fbff !important;border:1px solid #58708f !important;
+}
+.runner-panel * { opacity:1 !important; }
+.runner-panel h1,.runner-panel h2,.runner-panel h3,.runner-panel p,
+.runner-panel span,.runner-panel div,.runner-panel label,.runner-panel strong {
+ color:#f2f7ff !important;
+}
+.runner-panel #runExercise,.runner-panel .run-exercise,#runExercise {
+ color:#fff !important;font-size:clamp(28px,5.5vw,36px) !important;
+ font-weight:900 !important;line-height:1.2 !important;text-shadow:none !important;
+}
+.runner-panel #runDetail,#runDetail {
+ color:#8cf3d4 !important;font-size:clamp(20px,4vw,25px) !important;
+ font-weight:850 !important;line-height:1.35 !important;
+}
+.runner-panel #timerHint,#timerHint {color:#d4e1f2 !important;font-size:16px !important;}
+.runner-panel .rep-badge,.rep-badge {
+ background:#14664f !important;color:#fff !important;border:2px solid #61e6bb !important;
+ font-size:20px !important;font-weight:900 !important;padding:11px 18px !important;
+}
+.runner-panel .runner-instruction,.runner-instruction {
+ background:#091322 !important;color:#f4f8ff !important;border:1px solid #536984 !important;
+ font-size:16px !important;line-height:1.6 !important;
+}
+.runner-panel .runner-instruction b,.runner-instruction b {color:#8cf3d4 !important;font-size:17px !important;}
+.runner-panel .timer,.timer {
+ color:#fff !important;font-size:clamp(64px,14vw,88px) !important;
+ font-weight:950 !important;text-shadow:0 2px 18px #0008 !important;
+}
+.runner-panel button,.runner-panel .btn {min-height:48px;font-size:16px;}
+
 </style></head>
 <body><main class="wrap">
 <header class="hero">
